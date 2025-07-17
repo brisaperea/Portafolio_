@@ -1,0 +1,17 @@
+:root {
+  --rosa: #fddde6;
+  --celeste: #d6f0f5;
+  --lavanda: #e6e6fa;
+  --menta: #d0f0c0;
+  --gris-suave: #f8f8f8;
+  --texto: #333;
+  --acento: #ff9eb3;
+}
+
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background-color: var(--gris-suave);
+  color: var(--texto);
+  line-height: 1.6;
+}

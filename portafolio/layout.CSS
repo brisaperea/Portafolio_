@@ -1,0 +1,62 @@
+header {
+  background: linear-gradient(135deg, var(--lavanda), var(--rosa));
+  padding: 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  border-bottom: 4px solid var(--acento);
+}
+
+.logo h1 {
+  font-size: 2rem;
+  color: var(--texto);
+  margin: 0;
+}
+
+.logo p {
+  margin: 0.3rem 0 0;
+  font-size: 1rem;
+  color: #555;
+}
+
+nav ul {
+  display: flex;
+  gap: 1.5rem;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: var(--texto);
+  font-weight: 600;
+  transition: color 0.3s;
+}
+
+nav ul li a:hover {
+  color: var(--acento);
+}
+
+.seccion {
+  padding: 3rem 2rem;
+}
+
+.hero {
+  background: linear-gradient(to right, var(--rosa), var(--celeste));
+  text-align: center;
+  padding: 4rem 2rem;
+}
+
+.hero h2 {
+  font-size: 2.5rem;
+  margin-bottom: 0.5rem;
+}
+
+footer {
+  background: var(--lavanda);
+  text-align: center;
+  padding: 1rem;
+  font-size: 0.9rem;
+}
