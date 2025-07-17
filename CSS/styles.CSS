@@ -95,6 +95,57 @@ nav ul li a {
   margin: 0 1rem 1rem;
 }
 
+.descargar-cv {
+  text-align: center;
+  background: linear-gradient(135deg, #f5f7fa, #c3cfe2);
+  padding: 40px 20px;
+  border-radius: 1rem;
+  margin: 40px auto;
+  max-width: 600px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+  animation: fadeIn 1.2s ease;
+}
+
+.descargar-cv h2 {
+  font-size: 2rem;
+  margin-bottom: 10px;
+  color: #2b2b2b;
+}
+
+.descargar-cv p {
+  font-size: 1.1rem;
+  color: #555;
+  margin-bottom: 20px;
+}
+
+.boton-cv {
+  display: inline-block;
+  background-color: #0d6efd;
+  color: white;
+  padding: 12px 28px;
+  font-size: 1rem;
+  border-radius: 50px;
+  text-decoration: none;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 12px rgba(13, 110, 253, 0.3);
+}
+
+.boton-cv:hover {
+  background-color: #084298;
+  transform: scale(1.05);
+  box-shadow: 0 6px 16px rgba(13, 110, 253, 0.4);
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
 .contacto form {
   display: flex;
   flex-direction: column;
